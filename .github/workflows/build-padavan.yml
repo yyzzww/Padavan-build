@@ -3,7 +3,7 @@ name: Build Padavan
 
 on: 
   release:
-    types: [published]
+    types: [stared]
   push:
     tags:
     - 'v*'
